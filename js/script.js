@@ -27,3 +27,11 @@ M.Autocomplete.init(ac, {
         "Jamaica": null,
     }
 });
+
+// Material Boxed
+const mb = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(mb, {});
+
+// ScrollySpy
+const ss = document.querySelectorAll('.scrollspy');
+M.ScrollSpy.init(ss, {});
